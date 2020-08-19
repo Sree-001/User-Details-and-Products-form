@@ -1,0 +1,33 @@
+.field-wrapper{
+    width: 100%;
+    border: none;
+    padding: 0.2em;
+    margin:0.2em;
+}
+.label{
+    font-weight: bold;
+}
+
+.field{
+    margin:0;
+    font-size: 1em;
+    width:100%;
+    border: 1px solid lightgrey;
+    padding:0.4em;
+}
+
+.err-msg{
+    color:crimson;
+    margin:0;
+    font-size:0.8em;
+}
+
+.date-field{
+    display: block;
+    padding: 1em;
+    margin:1em 0;
+}
+
+.text-box{
+    width: 100%;
+}

@@ -1,0 +1,25 @@
+.address{
+    padding:1em;
+  }
+  
+.grid-container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+@media only screen and  (max-width:768px){
+    .grid-container{
+      grid-template-columns: 1fr;
+    }
+    .product{
+      grid-template-columns: 1fr;
+    }
+    .btn-danger{
+      width:80%;
+      margin:1em; 
+    }
+    .card{
+      width:96%;
+    }
+    
+  }
